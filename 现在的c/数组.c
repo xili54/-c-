@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    printf("???????????????\n");
+    printf("请输入十个正整数\n");
     int a[10], max, min;
     for (int i = 0; i < 10; i++)
     {
-        printf("???????%d????\n", i + 1);
+        printf("请输入第%d个整数\n", i + 1);
         scanf("%d", &a[i]);
     }
     max = a[0];
