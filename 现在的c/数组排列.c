@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 int main()
 {
-    printf("请输入十个整数，系统将为您从小到大排序。\n");
+    printf("璇疯緭鍏ュ崄涓暣鏁帮紝绯荤粺灏嗕负鎮ㄤ粠灏忓埌澶ф帓搴忋�俓n");
     int zu[10], t;
     for (int i = 0; i < 9; i++)
     {
-        printf("请输入第%d个数\n",i+1);
+        printf("璇疯緭鍏ョ%d涓暟\n", i + 1);
         scanf("%d", &zu[i]);
     }
     for (int g = 10; g > 1; g--)
